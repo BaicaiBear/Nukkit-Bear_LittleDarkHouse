@@ -2,6 +2,7 @@ package top.bearcabbage.littledarkhouse;
 
 import cn.nukkit.Player;
 import cn.nukkit.event.Listener;
+import cn.nukkit.item.Item;
 import cn.nukkit.plugin.PluginBase;
 
 public class SaveData extends PluginBase implements Listener{
@@ -14,7 +15,13 @@ public class SaveData extends PluginBase implements Listener{
     }
 
     public void backitem(Player player){
-
+        saveResource("item.yml");
+        Item[] n = new Item[player.getInventory().getSize()];
+        int[] tmp = (int[])this.getConfig().get(player.getName());
+        for(int i:tmp){
+            n[i] = new Item(tmp[i]);
+            player.getInventory().setItem(i,n[i]);
+        }
         return;
     }
 
