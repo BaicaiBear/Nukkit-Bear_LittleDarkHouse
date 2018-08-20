@@ -1,0 +1,30 @@
+name: LittleDarkHouse
+main: top.bearcabbage.littledarkhouse.LittleDarkHouse
+version: "1.0.0"
+api: ["1.0.0"]
+
+load: POSTWORLD
+
+author: 小熊白菜
+description: 这是一个小黑屋插件
+website: http://bearcabbage.top/
+
+permissions:
+  littledarkhouse.command.op:
+    description: 可以使用xhw指令的人
+    default: op
+  #littledarkhouse.command.out
+
+commands:
+  xhw:
+    description: 送玩家进入小黑屋的指令
+    usage: "/xhw [String: Player]"
+    permission: littledarkhouse.command.op
+  out:
+    description: 送玩家离开小黑屋的指令
+    usage: "/out [String: Player]"
+    permission: littledarkhouse.command.op
+  setxhw:
+    description: 设定小黑屋地点
+    usage: "/setxhw"
+    permission: littledarkhouse.command.op
