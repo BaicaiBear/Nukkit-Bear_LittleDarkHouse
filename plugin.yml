@@ -1,6 +1,6 @@
-name: LittleDarkHouse
+name: Bear_LittleDarkHouse
 main: top.bearcabbage.littledarkhouse.LittleDarkHouse
-version: "1.0.0"
+version: "1.0.1"
 api: ["1.0.0"]
 
 load: POSTWORLD
@@ -13,7 +13,6 @@ permissions:
   littledarkhouse.command.op:
     description: 可以使用xhw指令的人
     default: op
-  #littledarkhouse.command.out
 
 commands:
   xhw:
