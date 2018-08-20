@@ -4,42 +4,59 @@ import cn.nukkit.Player;
 import cn.nukkit.event.Listener;
 import cn.nukkit.item.Item;
 import cn.nukkit.plugin.PluginBase;
+import cn.nukkit.utils.Config;
+import com.google.common.primitives.Ints;
+
+import java.lang.reflect.Array;
+import java.util.Arrays;
+import java.util.List;
 
 public class SaveData extends PluginBase implements Listener{
 
-    public void saveitem(String name,int[] items){
-        saveResource("item.yml");
-        this.getConfig().set(name,items);
-        this.getConfig().save();
+    public void saveitem(String name,Item[] items){
+        Config a = new Config("item.yml");
+        List<Item> ii = Arrays.asList(items);
+        a.set(name,ii);
+        a.save();
         return;
     }
 
     public void backitem(Player player){
-        saveResource("item.yml");
-        Item[] n = new Item[player.getInventory().getSize()];
-        int[] tmp = (int[])this.getConfig().get(player.getName());
-        for(int i:tmp){
-            n[i] = new Item(tmp[i]);
+        Item[] n;
+        Config a = new Config("item.yml");
+        List<Item> s = a.getList(player.getName());
+        n = s.toArray(new Item[s.size()]);
+        for(int i=0;i<s.size();i++){
             player.getInventory().setItem(i,n[i]);
         }
+        a.remove(player.getName());
+        a.save();
         return;
     }
+/*
 
-    /*
-        true为在小黑屋内，false为不在或其他
-     */
+        //true为在小黑屋内，false为不在或其他
+
     public void edits(Player player,boolean s){
-        saveResource("player.yml");
-        this.getConfig().set(player.getName(),s);
-        this.getConfig().save();
+        Config a = new Config("player.yml");
+        a.getBoolean(player.getName(),s);
+        a.save();
         return;
     }
 
     public boolean finds(Player player){
-        saveResource("player.yml");
         boolean re;
-        re = this.getConfig().getBoolean(player.getName(),false);
-        this.getConfig().save();
+        Config a = new Config();
+        try{
+            a = new Config(this.getDataFolder().getPath()+"player.yml");
+        }
+        catch(Exception e)
+        {
+            this.getLogger().warning("eeeee||"+e.getMessage());
+        }
+        re = a.getBoolean(player.getName(),false);
+        a.save();
         return re;
     }
+    */
 }
