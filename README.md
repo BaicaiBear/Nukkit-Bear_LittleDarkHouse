@@ -17,5 +17,14 @@ v1.0.2 第三个版本，正式发行。
 </code>
 
 ------
+
+<code>
+v1.0.0 The first version only supports manual configuration files to set the address of the small black house and enter the small black house.</code><br /><code>
+v1.0.1 The second version basically completed all the framework development, added the function of setting the location of the small black house in the game, saved the function of the player's inventory, put the player to leave the small black house, and fixed the previous version of the jar package up to 120M.</code><br /><code>
+v1.0.1.2 Fixed some features that were not finished during the last release.</code><br /><code>
+v1.0.2 The third version, officially released.
+</code>
+
+------
 ## Usage 使用方法
 
