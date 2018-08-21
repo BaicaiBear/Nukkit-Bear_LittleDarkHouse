@@ -14,6 +14,8 @@ v1.0.0 第一个版本，仅支持手动配置文件设置小黑屋地址以及�
 v1.0.1 第二个版本，基本完成了全部框架开发，加入了游戏内设置小黑屋地点的功能，保存玩家物品栏的功能，放玩家离开小黑屋的功能，并且修复了上个版本jar包高达120M的BUG。</code><br /><code>
 v1.0.1.2 修正了上一次发布时没有写完的部分功能。</code><br /><code>
 v1.0.2 第三个版本，正式发行。
+</code><br /><code>
+v1.0.3 已经开始开发，将会添加保存状态，禁用指令和发消息前缀功能...
 </code>
 
 ------
@@ -23,6 +25,8 @@ v1.0.0 The first version only supports manual configuration files to set the add
 v1.0.1 The second version basically completed all the framework development, added the function of setting the location of the small black house in the game, saved the function of the player's inventory, put the player to leave the small black house, and fixed the previous version of the jar package up to 120M.</code><br /><code>
 v1.0.1.2 Fixed some features that were not finished during the last release.</code><br /><code>
 v1.0.2 The third version, officially released.
+</code><br /><code>
+v1.0.3 This version has already started developing.It will be added some functions such as Saving the status, canceling the commands and title of messages.
 </code>
 
 ------
