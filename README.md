@@ -1,9 +1,11 @@
-# Bear_LittleDarkHouse [![License: GPL v3](https://img.shields.io/badge/License-GPL%20v3-blue.svg)](LICENSE)  
+# Bear_LittleDarkHouse [![License: GPL v3](https://img.shields.io/badge/License-GPL%20v3-blue.svg)](LICENSE)
+
 *A free and safe Nukkit plugin.  一个免费并且安全的Nukkit插件。 http://bearcabbage.top/*
 ------
-![]()
+![小熊白菜最可爱](https://github.com/BaicaiBear/Nukkit-Bear_LittleDarkHouse/blob/master/CUTE.jpg)
 ------
 ## Download 下载地址
+
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Release发行版](https://github.com/BaicaiBear/Nukkit-Bear_LittleDarkHouse/releases)
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Debug测试版(Not public download 不公开下载)
 ------
@@ -30,6 +32,11 @@ v1.0.3 This version has already started developing.It will be added some functio
 </code>
 
 ------
+## Example Server 示例服务器
+
+* star.bearcabbage.top:19132
+* mc.nbddb.cn:19132
+------
 ## Usage 使用方法
 
 <del datetime="2018-08-21T02:03:10+00:00">这个插件可以把说小熊白菜不可爱的人都关进小黑屋( ^３^ )╱~~（滑稽）</del>
@@ -38,12 +45,35 @@ v1.0.3 This version has already started developing.It will be added some functio
 
 指令分别为：/xhw,/out,/setxhw
 
-/setxhw就是<del datetime="2018-08-21T02:03:10+00:00">设置小熊白菜不可爱的人</del>的监狱地点，脚下就是监狱地点（雾）
+<h3>/setxhw就是<del datetime="2018-08-21T02:03:10+00:00">设置小熊白菜不可爱的人</del>的监狱地点，脚下就是监狱地点（雾）</h3>
 
-/out ID<del datetime="2018-08-21T02:03:10+00:00">就是他说小熊白菜可爱了，懂事了</del>，允许让他出狱了。
+就像这样
+![设置小黑屋](https://github.com/BaicaiBear/Nukkit-Bear_LittleDarkHouse/blob/master/img/set1.png)
+然后接设置好了，对比一下坐标~可爱
+![设置了小黑屋](https://github.com/BaicaiBear/Nukkit-Bear_LittleDarkHouse/blob/master/img/set2.png)
 
-/xhw ID<del datetime="2018-08-21T02:03:10+00:00">让那些说小熊白菜不可爱的人</del>指定一个玩家到小黑屋。
+<h3>/xhw ID<del datetime="2018-08-21T02:03:10+00:00">让那些说小熊白菜不可爱的人</del>指定一个玩家到小黑屋。</h3>
 
-我们现在已经能屏蔽/world，/tpa等普通玩家能传送出去的指令，所以只要<del datetime="2018-08-21T02:03:10+00:00">小熊白菜最可爱</del>你的监狱够牢固，他就出不去啦~
+就像这样
+![进入小黑屋1](https://github.com/BaicaiBear/Nukkit-Bear_LittleDarkHouse/blob/master/img/in1.png)
+然后就很开心的进来了
+![进入小黑屋了](https://github.com/BaicaiBear/Nukkit-Bear_LittleDarkHouse/blob/master/img/in2.png)
+看一眼自己的模式啊啊啊啊啊啊
+![模式更改](https://github.com/BaicaiBear/Nukkit-Bear_LittleDarkHouse/blob/master/img/in3.png)
+对了，悄悄告诉你，配置模式里有个开关，打开之后...hiahiahiahia，你可以去试试~
+
+<h3>/out ID<del datetime="2018-08-21T02:03:10+00:00">就是他说小熊白菜可爱了，懂事了</del>，允许让他出狱了。</h3>
+
+就像这样
+![离开小黑屋](https://github.com/BaicaiBear/Nukkit-Bear_LittleDarkHouse/blob/master/img/out1.png)
+然后就开心的出去了（还有可爱的提示）
+![离开小黑屋了](https://github.com/BaicaiBear/Nukkit-Bear_LittleDarkHouse/blob/master/img/out2.png)
+
+
+
+我们现在马上能屏蔽/world，/tpa等普通玩家能传送出去的指令，所以只要<del datetime="2018-08-21T02:03:10+00:00">小熊白菜最可爱</del>你的监狱够牢固，他就出不去啦~
+
+好了，大喊一声
+<h2><em><strong><span style="color: #996600;">小熊白菜最可爱！</span></strong></em></h2>
 
 ------
