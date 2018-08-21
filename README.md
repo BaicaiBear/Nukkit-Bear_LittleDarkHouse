@@ -1,4 +1,4 @@
-![P4Z8KI.jpg](https://s1.ax1x.com/2018/08/21/P4Z8KI.jpg)
+<img src="https://s1.ax1x.com/2018/08/21/P4Z8KI.jpg" alt="P4Z8KI.jpg" border="0" />
 # Bear_LittleDarkHouse
 A free and safe Nukkit plugin.  一个免费并且安全的Nukkit插件。 http://bearcabbage.top/
 <br />
