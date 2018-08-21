@@ -77,3 +77,7 @@ v1.0.3 This version has already started developing.It will be added some functio
 <h2><em><strong><span style="color: #996600;">小熊白菜最可爱！</span></strong></em></h2>
 
 ------
+## Friend Link 友情链接
+
+* [Winddine风代服务器](https://mc.nbddb.cn/)
+* [天依粉丝站 洛天依.LOVE](http://luotianyi.love)
